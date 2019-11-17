@@ -1,0 +1,110 @@
+body {
+    margin: auto;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+.logo-site {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+.painel-login {
+    width: 20%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}
+
+.painel-login h1 {
+    text-align: center;
+    margin-top: -10px;
+    color: blueviolet;
+    font-size: 20px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.painel-login p {
+    font-size: 18px;
+    color: blueviolet;
+    letter-spacing: 5px;
+}
+input[type = text]{
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    border: 1px solid #c0c0cc;
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+    box-sizing: border-box;
+}
+input[type = text]:hover{
+    border: 1px solid blueviolet;
+}
+input[type = password] {
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid #c0c0cc;
+    width: 100%;
+    color: blueviolet;
+    text-align: center;
+    box-sizing: border-box;
+}
+input[type = password]:hover {
+    border: 1px solid blueviolet;
+}
+
+input[type = submit]{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+    background-color: transparent;
+    color: blueviolet;
+    outline: none;
+    width: 100%;
+    text-transform: uppercase;
+}
+input[type = submit]:hover{
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+input[type = password]::placeholder{
+    color : blueviolet
+}
+input[type = text]::placeholder {
+    color: blueviolet;
+}
+.atendimento {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.atendimento a {
+    text-align: center;
+    padding: 5px 15px;
+    width: 100%;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 14px;
+}
+.atendimento a:hover {
+    text-decoration: underline;
+}
+footer p {
+    text-align: center;
+    color: whitesmoke;
+}
